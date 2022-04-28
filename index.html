@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="utf-8" />
+            <link rel="stylesheet" href="style.css">
+            <title>Challenge Oracle ONE Sprint 01</title>
+        </head>
+        <body>
+            <div class="container">
+                <div class="logo">
+                    <img class="logo1" src="image/Logo.png">
+                    <h1 class="titulo">Encripta tu mensaje</h1>
+                </div>
+                <div class="izquierda">
+                    <input class="text-input" id="inputTexto" type="text" placeholder="Ingresa tu texto aquí:">
+                </div>
+                <div class="derecha">
+                    <img src="image/muneco.png" id="imaDere"> 
+                    <h1 id="texto1">Ningún mensaje fue encontrado</h1>
+                    <textarea id="texto2" name="name" rows="8" cols="80" >Ingresa el texto que desees encriptar o desencriptar</textarea>  
+                    <button id="copiar" type="button" name="button" onclick="copiar()">¡Copiar!</button>
+                </div>
+                <div class="boton-izquierdo">
+                    <p>¡Sólo minúsculas y sin acentos!</p>
+                    <button type="button" id="btn-encriptar" onclick="encriptar()">¡Encriptar!</button>
+                    <button type="button" id="btn-desencriptar" onclick="desencriptar()">¡Desencriptar!</button>
+                </div>
+            </div>
+            <script type="text/javascript" src="script.js">
+            </script>
+        </body>
+    </html>
